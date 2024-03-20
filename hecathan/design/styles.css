@@ -1,0 +1,486 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-2-5d-see-a-doctor-medical-hospital-image_18143.jpg'); /* Replace 'background.jpg' with your image file */
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* styles.css */
+
+.container {
+  background-color: #a8fffe;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  width: 700px; /* Set the desired width */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin-left: 280px;
+  left: 50px;
+  border: none;
+  border-radius: 13px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 25px;
+  cursor:grab;
+}
+
+button[type="submit"]:hover {
+  background-color: #002247;
+}
+
+
+
+
+
+
+
+
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #53a6ff8c;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+header h1 {
+  font-size: 3rem; /* Increase the font size */
+  color: #000000; /* Primary color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+  animation: dropDown 4s ease forwards; /* Add initial animation */
+}
+
+@keyframes dropDown {
+  from {
+    opacity: 0;
+    transform: translateY(-200px); /* Start animation from top */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End animation at original position */
+  }
+}
+
+header h1:hover {
+  font-size: 3.5rem; /* Increase font size on hover */
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Add shadow on hover */
+}
+
+/* Animation */
+@keyframes bounce {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+header h1:hover {
+  animation: bounce 0.5s ease; /* Apply animation on hover */
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.doctor-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.doctor {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.doctor img {
+  width: auto;
+  max-width: 100%;
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+.doctor-info a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+  display: block;
+  padding: 10px;
+}
+
+.doctor-info a:hover {
+  color: #007bff;
+  background-color: #f4f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.doctor-profile {
+  display: flex;
+  align-items: center;
+  border: 5px solid #ccc;
+  border-radius: 280px;
+  padding: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow */
+  color: #eee;
+  background-color: rgba(83, 81, 81, 0.484);
+}
+
+
+.profile-picture img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+.doctor-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: wheat;
+}
+
+.doctor-rating {
+  font-size: 1.5rem;
+}
+
+.stars {
+  color: #f39c12;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  margin-right: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 5px 50px rgba(0, 4, 9, 0.3); /* Initial shadow */
+  transition: transform 1s ease, box-shadow 1s ease; /* Add transition for transform and box-shadow */
+}
+
+/* Shadow animation */
+@keyframes shadowAnimation {
+  0% {
+    box-shadow: 0 5px 10px rgb(0, 4, 9); /* Initial shadow */
+  }
+  50% {
+    box-shadow: 0 10px 10px rgba(0, 4, 9, 0.5); /* Intermediate shadow */
+  }
+  100% {
+    box-shadow: 0 50px 10px rgba(0, 4, 9, 0.3); /* Final shadow */
+  }
+}
+
+/* Apply animation on hover */
+button:hover {
+  animation: shadowAnimation 1s infinite alternate; /* Apply shadow animation on hover */
+}
+
+
+.review {
+  background-color: #00ff3c; /* Green color */
+}
+
+.call {
+  background-color: #ffc107;
+  font-size: 1.8rem;
+  padding: 15px 30px;
+  margin-right: 0;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(255, 193, 7, 0.5);
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  font-size: 15px;
+}
+
+.call i {
+  margin-right: 10px; /* Add space between icon and text */
+  color: blanchedalmond;
+}
+.reviews-section {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.reviews-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.reviews-list {
+  list-style:decimal;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.463);
+  font-size: 20px;
+}
+
+.reviews-list li {
+  margin-bottom: 10px;
+  border-left: 4px solid #28a745; /* Green color */
+  padding-left: 10px;
+}
+a {
+  color: #ffffff; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.appointment-details {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.details {
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details p {
+  margin-bottom: 10px;
+}
+
+.details p strong {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.profile-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profile-button:hover {
+  background-color: #0056b3;
+}
+
+
+a {
+  color: #ffffff; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make the text bold */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+.user-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.864);
+  background-color: #021c3848;
+}
+
+.profile-details {
+  padding: 20px;
+  color: #eee;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.patient-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.bio {
+  margin-bottom: 15px;
+}
+
+.blood-group, .medical-condition {
+  margin-bottom: 10px;
+}
+
+.prescription-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prescription-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
