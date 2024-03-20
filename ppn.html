@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prescription Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  text-align: center;
+  
+  margin-top: 50px;
+  font-size: larger;
+  color: chartreuse;
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+
+}
+
+.prescriptions {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.288);
+}
+
+.prescription {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 3px solid #ddd;
+  border-radius: 5px;
+  background-color: rgba(255, 247, 232, 0.324);
+}
+
+.doctor-name {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.prescription-text {
+  margin-bottom: 10px;
+}
+
+.prescription-date {
+  color: #f0efef;
+}
+
+  </style>
+</head>
+<body>
+  <h2 class="page-title">Prescription Page</h2>
+  <div class="prescriptions">
+    <div class="prescription">
+      <h3 class="doctor-name">Dr. John Doe</h3>
+      <p class="prescription-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="prescription-date">Date: March 25, 2024</p>
+    </div>
+    <div class="prescription">
+      <h3 class="doctor-name">Dr. Jane Smith</h3>
+      <p class="prescription-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="prescription-date">Date: March 26, 2024</p>
+    </div>
+    <!-- Add more prescriptions here -->
+  </div>
+  <div class="ask-ai-button">
+    <button><a href="https://chat.openai.com">Ask AI</a></button>
+  </div>
+</body>
+</html>
